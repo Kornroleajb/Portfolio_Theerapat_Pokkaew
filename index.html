@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eaf5ff">
+  <meta name="description" content="Portfolio ของธีรภัทร พอกแก้ว — Software Developer">
+  <title>Theerapat Pokkaew | Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-mark">T</span><span>THEERAPAT<span class="blue">.</span></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+  <nav class="nav" id="nav">
+    <a href="#projects" data-i18n="navProjects">โปรเจกต์</a>
+    <a href="#activities" data-i18n="navActivities">กิจกรรม</a>
+    <a href="#education" data-i18n="navEducation">การศึกษา</a>
+    <a href="#contact" data-i18n="navContact">ติดต่อ</a>
+    <div class="lang-switch"><button class="lang-btn active" id="langToggle" type="button" aria-label="Switch language">TH</button></div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero section" id="home">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hello">สวัสดีครับ ผมชื่อ</p>
+      <h1 data-i18n="name">ธีรภัทร <span>พอกแก้ว</span></h1>
+      <h2>Software Developer <span class="separator">/</span> Computer Engineering &amp; IoT</h2>
+      <p class="intro" data-i18n="intro">สนใจพัฒนาเว็บแอปพลิเคชัน การจัดการฐานข้อมูล และการประยุกต์ใช้ Machine Learning กับการวิเคราะห์ข้อมูล พร้อมเรียนรู้การพัฒนาระบบจริงและการทำงานเป็นทีม</p>
+      <div class="hero-docs">
+        <a class="btn primary" href="Resume%20Transcript/RESUME%20TP%20TH.pdf" target="_blank" rel="noopener"><span>↗</span><span data-i18n="resumeTH">Resume ภาษาไทย</span></a>
+        <a class="btn light" href="Resume%20Transcript/RESUME%20TP%20EN.pdf" target="_blank" rel="noopener"><span>↗</span><span data-i18n="resumeEN">Resume English</span></a>
+        <a class="btn outline" href="Resume%20Transcript/Transcript%20TP.pdf" target="_blank" rel="noopener"><span>↗</span><span data-i18n="transcript">Transcript</span></a>
+      </div>
+      <div class="tech-block">
+        <p class="tech-title" data-i18n="techTitle">เทคโนโลยีและเครื่องมือที่เคยใช้งาน</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span><span>Python</span><span>C / C++</span><span>Git</span><span>GitHub</span><span>VS Code</span><span>Microsoft Visio</span><span>draw.io</span><span>Machine Learning</span>
+        </div>
+      </div>
+    </div>
+    <div class="profile-panel">
+      <div class="profile-glow"></div>
+      <div class="profile-frame">
+        <img src="Profile/mPerfect.png" alt="รูปโปรไฟล์ ธีรภัทร พอกแก้ว" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="profile-fallback" style="display:none">TP</div>
+      </div>
+      <span class="scribble">BUILD<br>LEARN<br>IMPROVE ↗</span>
+      <span class="orbit orbit-a"></span><span class="orbit orbit-b"></span>
+    </div>
+  </section>
+
+  <section class="section projects-section" id="projects">
+    <div class="section-head"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 data-i18n="projectsTitle">โปรเจกต์</h2><p data-i18n="projectsSub">ผลงานจากการเรียนและพัฒนาระบบ</p></div><span class="head-rule"></span></div>
+
+    <article class="project-card">
+      <div class="project-info">
+        <span class="project-index" data-i18n="project01Meta">โปรเจกต์ 01 · ปี 4</span>
+        <h3 data-i18n="mackerelTitle">ระบบคาดการณ์การกระจายตัวของปลาทูในทะเลอ่าวไทยโดยใช้ปัญญาประดิษฐ์</h3>
+        <p data-i18n="mackerelDesc">ระบบประมวลผลข้อมูลมหาสมุทรเพื่อวิเคราะห์และคาดการณ์การกระจายตัวของปลาทู โดยใช้ Machine Learning 3 แนวทาง ได้แก่ Regression, Classification และ Clustering</p>
+        <a class="github-project-link" href="https://github.com/Kornroleajb/Mackerel-Distribution-Prediction-System" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="viewGithub">ดูบน GitHub</span></a>
+        <div class="project-tags"><span>Python</span><span>MySQL</span><span>Machine Learning</span><span>Data Analysis</span></div>
+      </div>
+      <div class="gallery" data-gallery="mackerel">
+        <div class="gallery-main"><img class="gallery-image" src="Project/Mackerel/1.1.png" alt="หน้าจอโปรเจกต์"><span class="image-counter">1 / 12</span><button class="gallery-arrow prev" aria-label="ภาพก่อนหน้า">‹</button><button class="gallery-arrow next" aria-label="ภาพถัดไป">›</button></div>
+        <div class="thumbs">
+        <button class="thumb active" data-src="Project/Mackerel/1.1.png" aria-label="ภาพที่ 1"><img src="Project/Mackerel/1.1.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/2.1.png" aria-label="ภาพที่ 2"><img src="Project/Mackerel/2.1.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/2.2.png" aria-label="ภาพที่ 3"><img src="Project/Mackerel/2.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/2.3.png" aria-label="ภาพที่ 4"><img src="Project/Mackerel/2.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.1.png" aria-label="ภาพที่ 5"><img src="Project/Mackerel/3.1.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.2.png" aria-label="ภาพที่ 6"><img src="Project/Mackerel/3.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.3.png" aria-label="ภาพที่ 7"><img src="Project/Mackerel/3.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.4.png" aria-label="ภาพที่ 8"><img src="Project/Mackerel/3.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.5.png" aria-label="ภาพที่ 9"><img src="Project/Mackerel/3.5.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.6.png" aria-label="ภาพที่ 10"><img src="Project/Mackerel/3.6.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.7.png" aria-label="ภาพที่ 11"><img src="Project/Mackerel/3.7.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mackerel/3.8.png" aria-label="ภาพที่ 12"><img src="Project/Mackerel/3.8.png" alt=""></button>
+        </div>
+      </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-info">
+        <span class="project-index" data-i18n="project02Meta">โปรเจกต์ 02 · ปี 2</span>
+        <h3 data-i18n="mamaTitle">ระบบบริหารจัดการผลิตภัณฑ์มาม่า</h3>
+        <p data-i18n="mamaDesc">เว็บแอปพลิเคชันจำลองระบบภายในองค์กร มีระบบ Login และสิทธิ์การใช้งาน รวมถึงส่วนจัดซื้อ คลังสินค้า ฝ่ายขาย และงานบุคคล</p>
+        <a class="github-project-link" href="https://github.com/Kornroleajb/Mama-Product-Management-System" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="viewGithub">ดูบน GitHub</span></a>
+        <div class="project-tags"><span>PHP</span><span>MySQL</span><span>Web Application</span><span>CRUD</span></div>
+      </div>
+      <div class="gallery" data-gallery="mama">
+        <div class="gallery-main"><img class="gallery-image" src="Project/Mama/1.1Home.png" alt="หน้าจอโปรเจกต์"><span class="image-counter">1 / 38</span><button class="gallery-arrow prev" aria-label="ภาพก่อนหน้า">‹</button><button class="gallery-arrow next" aria-label="ภาพถัดไป">›</button></div>
+        <div class="thumbs">
+        <button class="thumb active" data-src="Project/Mama/1.1Home.png" aria-label="ภาพที่ 1"><img src="Project/Mama/1.1Home.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/1.2Login.png" aria-label="ภาพที่ 2"><img src="Project/Mama/1.2Login.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/1.3Add.png" aria-label="ภาพที่ 3"><img src="Project/Mama/1.3Add.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/1.4Detail.png" aria-label="ภาพที่ 4"><img src="Project/Mama/1.4Detail.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/1.5Edit.png" aria-label="ภาพที่ 5"><img src="Project/Mama/1.5Edit.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/2.1Purchase.png" aria-label="ภาพที่ 6"><img src="Project/Mama/2.1Purchase.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/2.2.png" aria-label="ภาพที่ 7"><img src="Project/Mama/2.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/2.3.png" aria-label="ภาพที่ 8"><img src="Project/Mama/2.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/2.4.png" aria-label="ภาพที่ 9"><img src="Project/Mama/2.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/3.1HR.png" aria-label="ภาพที่ 10"><img src="Project/Mama/3.1HR.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/3.2.png" aria-label="ภาพที่ 11"><img src="Project/Mama/3.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/3.3.png" aria-label="ภาพที่ 12"><img src="Project/Mama/3.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/3.4.png" aria-label="ภาพที่ 13"><img src="Project/Mama/3.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.1Sale.png" aria-label="ภาพที่ 14"><img src="Project/Mama/4.1Sale.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.2.png" aria-label="ภาพที่ 15"><img src="Project/Mama/4.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.3.png" aria-label="ภาพที่ 16"><img src="Project/Mama/4.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.4.png" aria-label="ภาพที่ 17"><img src="Project/Mama/4.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.5.png" aria-label="ภาพที่ 18"><img src="Project/Mama/4.5.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/4.6.png" aria-label="ภาพที่ 19"><img src="Project/Mama/4.6.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/5.1WMS.png" aria-label="ภาพที่ 20"><img src="Project/Mama/5.1WMS.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/5.2.png" aria-label="ภาพที่ 21"><img src="Project/Mama/5.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/5.3.png" aria-label="ภาพที่ 22"><img src="Project/Mama/5.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/5.4.png" aria-label="ภาพที่ 23"><img src="Project/Mama/5.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/6.1Research.png" aria-label="ภาพที่ 24"><img src="Project/Mama/6.1Research.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/6.2.png" aria-label="ภาพที่ 25"><img src="Project/Mama/6.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/7.1Production.png" aria-label="ภาพที่ 26"><img src="Project/Mama/7.1Production.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/7.2.png" aria-label="ภาพที่ 27"><img src="Project/Mama/7.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/7.3.png" aria-label="ภาพที่ 28"><img src="Project/Mama/7.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/7.4.png" aria-label="ภาพที่ 29"><img src="Project/Mama/7.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.1BackEnd.png" aria-label="ภาพที่ 30"><img src="Project/Mama/8.1BackEnd.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.2.png" aria-label="ภาพที่ 31"><img src="Project/Mama/8.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.3.png" aria-label="ภาพที่ 32"><img src="Project/Mama/8.3.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.4.png" aria-label="ภาพที่ 33"><img src="Project/Mama/8.4.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.5.png" aria-label="ภาพที่ 34"><img src="Project/Mama/8.5.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/8.6.png" aria-label="ภาพที่ 35"><img src="Project/Mama/8.6.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/9.1Accounting.png" aria-label="ภาพที่ 36"><img src="Project/Mama/9.1Accounting.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/9.2.png" aria-label="ภาพที่ 37"><img src="Project/Mama/9.2.png" alt=""></button>
+        <button class="thumb" data-src="Project/Mama/9.3.png" aria-label="ภาพที่ 38"><img src="Project/Mama/9.3.png" alt=""></button>
+        </div>
+      </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-info">
+        <span class="project-index" data-i18n="project03Meta">โปรเจกต์ 03 · ปี 1</span>
+        <h3 data-i18n="calcTitle">เครื่องคิดเลขวิทยาศาสตร์ 40 ฟังก์ชัน</h3>
+        <p data-i18n="calcDesc">โปรแกรมเครื่องคิดเลขสำหรับการคำนวณทางคณิตศาสตร์และฟังก์ชันวิทยาศาสตร์ พัฒนาขึ้นเพื่อฝึกพื้นฐานการเขียนโปรแกรมและการจัดการอินพุต</p>
+        <a class="github-project-link" href="https://github.com/Kornroleajb/Scientific-Calculator" target="_blank" rel="noopener noreferrer">↗ <span data-i18n="viewGithub">ดูบน GitHub</span></a>
+        <div class="project-tags"><span>Programming</span><span>Scientific Calculator</span><span>40 Functions</span></div>
+      </div>
+      <div class="gallery single-gallery">
+        <div class="gallery-main"><img class="gallery-image" src="Project/Calculate/Sci-Cal.jpg" alt="เครื่องคิดเลขวิทยาศาสตร์ 40 ฟังก์ชัน"><span class="image-counter">1 / 1</span></div>
+              </div>
+    </article>
+  </section>
+
+  <section class="section" id="activities">
+    <div class="section-head"><div><p class="eyebrow">02 / ACTIVITIES</p><h2 data-i18n="activitiesTitle">กิจกรรมและโครงการ</h2><p data-i18n="activitiesSub">โครงการที่เคยเข้าร่วม</p></div><span class="head-rule"></span></div>
+    <article class="activity-card">
+      <div class="activity-cover">
+        <img src="กิจกรรม/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์ 1.jpg" alt="ภาพปกโครงการ MUT ผลิตกำลังคนด้านเซมิคอนดักเตอร์">
+      </div>
+      <div class="activity-info"><span class="project-index">ACTIVITY 01</span><h3 data-i18n="mutTitle">MUT — โครงการผลิตกำลังคนด้านเซมิคอนดักเตอร์</h3>
+        <a class="github-project-link activity-project-link" href="https://mut.ac.th/main-semiconductor/" target="_blank" rel="noopener noreferrer">↗ MUT National Semiconductor Training</a>
+        <div class="activity-thumbs">
+          <button class="activity-thumb active" data-activity-src="กิจกรรม/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์ 1.jpg" aria-label="ดูภาพโครงการ 1"><img src="กิจกรรม/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์ 1.jpg" alt=""></button>
+          <button class="activity-thumb" data-activity-src="กิจกรรม/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์ 2.jpg" aria-label="ดูภาพโครงการ 2"><img src="กิจกรรม/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์/MUT โครงการผลิตกําลังคน ด้านเซมิคอนดัคเตอร์ 2.jpg" alt=""></button>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="section education-section" id="education">
+    <div class="section-head"><div><p class="eyebrow">03 / EDUCATION</p><h2 data-i18n="educationTitle">ประวัติการศึกษา</h2></div><span class="head-rule"></span></div>
+    <div class="education-list">
+      <article class="education-card">
+        <img src="Education/DebsirinSamutPrakanSchool.png" alt="โรงเรียนเทพศิรินทร์ สมุทรปราการ">
+        <div class="education-detail"><span class="edu-level" data-i18n="highSchoolLevel">มัธยมศึกษา</span><h3 data-i18n="schoolName">โรงเรียนเทพศิรินทร์ สมุทรปราการ</h3><p data-i18n="highSchoolDegree">มัธยมศึกษาตอนปลาย</p><div class="gpa"><span>GPA</span><strong>3.80</strong></div></div>
+      </article>
+      <article class="education-card">
+        <img src="Education/RMUTK.jpg" alt="มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ">
+        <div class="education-detail"><span class="edu-level" data-i18n="universityLevel">ปริญญาตรี</span><h3 data-i18n="universityName">มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ</h3><p data-i18n="faculty">คณะวิศวกรรมศาสตร์</p><p data-i18n="major">สาขาวิศวกรรมคอมพิวเตอร์และระบบไอโอที</p><div class="gpa"><span>GPA</span><strong>3.25</strong></div></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="section-head"><div><p class="eyebrow">04 / SAY HELLO</p><h2 data-i18n="contactTitle">ช่องทางติดต่อ</h2></div><span class="head-rule"></span></div>
+    <div class="contact-grid">
+      <a class="contact-card" href="tel:0617702920"><span class="contact-icon">☎</span><span><small>PHONE</small><strong>061-770-2920</strong></span><span class="external">↗</span></a>
+      <a class="contact-card" href="mailto:theepok2547@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>theepok2547@gmail.com</strong></span><span class="external">↗</span></a>
+      <a class="contact-card" href="https://github.com/Kornroleajb" target="_blank" rel="noopener"><span class="contact-icon social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.71 2.62 1.22 3.26.93.1-.72.39-1.22.71-1.5-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3.01 0 4.27-2.6 5.21-5.08 5.49.4.35.76 1.02.76 2.06V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/></svg></span><span><small>GITHUB</small><strong>Kornroleajb</strong></span><span class="external">↗</span></a>
+      <a class="contact-card" href="https://www.instagram.com/not_ponyajb/" target="_blank" rel="noopener"><span class="contact-icon social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="instagram-dot" cx="17.5" cy="6.7" r="1"/></svg></span><span><small>INSTAGRAM</small><strong>@not_ponyajb</strong></span><span class="external">↗</span></a>
+      <button class="contact-card line-card" id="copyLine"><span class="contact-icon line-icon">LINE</span><span><small>LINE ID</small><strong>ponyajb</strong></span><span class="external" data-i18n="copyLine">คัดลอก</span></button>
+    </div>
+    <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+  </section>
+</main>
+<footer><span>© <span id="year"></span> Theerapat Pokkaew</span><a href="#home" data-i18n="backTop">กลับขึ้นด้านบน ↑</a></footer>
+</body>
+</html>
